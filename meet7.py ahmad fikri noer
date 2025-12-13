@@ -1,0 +1,98 @@
+#  komperasi (true, false)
+# > < >= <= == != is is-not
+# Nama: Ahmad Fikri Noer
+# Nim: 25241076
+# x = # (2 digit nim pertama)
+# y = # (2 digit nim akhir)
+x = 6
+y = 5
+hasil = x > 5
+print(x, ">", 5, "=", hasil)
+
+x = 6
+y = 5
+hasil = y < 6
+print(y, "<", 6, "=", hasil)
+
+x = 6
+y = 5
+hasil = x >= 5
+print(x, ">=", 5, "=", hasil)
+
+x = 6
+y = 5
+hasil = y <= 6
+print(y, "<=", 6, "=", hasil)
+
+
+x = 6
+y = 6
+hasil = y == 6
+print(y, "==", 6, "=", hasil)
+
+x = 6
+y = 5
+hasil = y != 6
+print(y, "!=", 6, "=", hasil)
+
+x = 5
+y = 5
+hasil = y is 5
+print(y, "is", 5, "=", hasil)
+
+x = 6
+y = 4
+hasil = y is not 6
+print(y, "is not", 6, "=", hasil)
+
+# TUGAS
+x = 25
+y = 76
+hasil = x > 76
+print(x, ">", 76, "=", hasil)
+hasil = x > 24
+print(x, ">", 74, "=", hasil)
+
+hasil = y < 25
+print(y, "<", 25, "=", hasil)
+hasil = y < 78
+print(y, "<", 78, "=", hasil)
+
+hasil = x >= 76
+print(x, ">=", 76, "=", hasil)
+hasil = x >= 25
+print(x, ">=", 25, "=", hasil)
+
+hasil = y <= 76
+print(y, "<=", 76, "=", hasil)
+hasil = y <= 25
+print(y, "<=", 25, "=", hasil)
+
+hasil = y == 76
+print(y, "==", 76, "=", hasil)
+hasil = y == 25
+print(y, "==", 25, "=", hasil)
+
+hasil = y != 76
+print(y, "!=", 76, "=", hasil)
+hasil = y != 25
+print(y, "!=", 25, "=", hasil)
+
+hasil = y is 76
+print(y, "is", 76, "=", hasil)
+hasil = y is 25
+print(y, "is", 25, "=", hasil)
+
+hasil = y is not 76
+print(y, "is not", 76, "=", hasil)
+hasil = y is not 25
+print(y, "is not", 25, "=", hasil)
+
+
+
+
+
+
+
+
+
